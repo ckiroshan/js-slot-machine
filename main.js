@@ -55,4 +55,4 @@ const getBetAmount = (balance, lines) => {
 
 let depositAmount = deposit();
 const betLines = getNumberOfLines();
-const bet = getBetAmount(depositAmount, betLines);
+const betAmountPerLine = getBetAmount(depositAmount, betLines);
